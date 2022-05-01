@@ -83,4 +83,4 @@ let checkUser = users.filter(function(i){
     return i.registrationDate == '09.10.2021' ||  i.registrationDate =='10.10.2021';
 
 });
-console.log(checkUser);
+console.table(checkUser);
